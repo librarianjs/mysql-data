@@ -55,7 +55,7 @@ mimeType | VARCHAR(64) | RFC 6838 [recommends](https://tools.ietf.org/html/rfc68
 
 The user to connect as. Defaults to `librarian`.
 
-### password (required, or connectionString)
+### password (required)
 
 The password to use. Use `''` if you don't want a password.
 
