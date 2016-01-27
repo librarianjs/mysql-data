@@ -42,7 +42,7 @@ The database name. Defaults to `librarian`.
 
 ### table
 
-The database table for the file records. If you use the [writeSchema](#writeSchema) option, one will be created for you with this name. But if you already have a table, make sure it has the correct format.
+The database table for the file records. If you use the [writeSchema](#writeschema) option, one will be created for you with this name. But if you already have a table, make sure it has the correct format.
 
 Field | Type | Notes
 ----- | ---- | -----
