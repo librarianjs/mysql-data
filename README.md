@@ -45,7 +45,7 @@ The database name. Defaults to `librarian`.
 The database table for the file records. If you use the [writeSchema](#writeSchema) option, one will be created for you with this name. But if you already have a table, make sure it has the correct format.
 
 Field | Type | Notes
--|-|-
+----- | ---- | -----
 id | CHAR(36) | Will store UUIDs
 name | VARCHAR(128) | 128 seems reasonable, but you can change this.
 size | INT | INT will store up to ~2gb, much larger sizes than librarian is designed to handle.
