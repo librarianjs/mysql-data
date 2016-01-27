@@ -1,0 +1,24 @@
+{
+  "name": "librarian-mysql-data",
+  "version": "1.0.0",
+  "description": "LibrarianJS mysql datadata plugin",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/librarianjs/mysql-data.git"
+  },
+  "author": "Josh Vanderwillik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/librarianjs/mysql-data/issues"
+  },
+  "homepage": "https://github.com/librarianjs/mysql-data",
+  "dependencies": {
+    "bluebird": "^2.9.25",
+    "lodash.merge": "^4.0.2",
+    "mysql": "^2.6.2"
+  }
+}
