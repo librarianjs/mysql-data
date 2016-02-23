@@ -9,8 +9,8 @@ describe('MysqlData', function(){
   var record = {
     id: TEST_KEY,
     name: 'cats.png',
-    size: 4444,
-    mimeType: 'image/png'
+    mimeType: 'image/png',
+    size: 4444
   }
 
   var db = makeDb()
@@ -44,7 +44,7 @@ describe('MysqlData', function(){
   it('should getAll() successfully', () => {
     return plugin.getAll().then(fetched => {
       assert(Array.isArray(fetched), 'Returned data is not in array form')
-      assert(typeof fetched[0] !== 'object', 'Returned records are objects')
+      assert.equal(typeof fetched[0], 'object')
     })
   })
 
