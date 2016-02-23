@@ -1,6 +1,6 @@
 {
   "name": "librarian-mysql-data",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "LibrarianJS mysql datadata plugin",
   "main": "lib/index.js",
   "scripts": {
